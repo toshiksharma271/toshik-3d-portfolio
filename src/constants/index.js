@@ -55,12 +55,12 @@ import {
   
   const services = [
     {
-      title: "Python",
-      icon: python ,
+      title: "JavaScript",
+      icon: javascript ,
     },
     {
-      title: "MongoDB",
-      icon: mongodb,
+      title: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       title: "Git",
@@ -74,83 +74,100 @@ import {
   
   const technologies = [
     {
-      name: "MySQL",
-      icon: mysql,
+      name: "HTML 5",
+      icon: html,
     },
     {
-      name: "SQLserver",
-      icon: sqlServer,
+      name: "CSS 3",
+      icon: css,
     },
     {
-      name: "Excel",
-      icon: Excel,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
-      name: "Tableau",
-      icon: Tableau,
+      name: "TypeScript",
+      icon: typescript,
     },
     {
-      name: "PowerBI",
-      icon: powerBi,
+      name: "React JS",
+      icon: reactjs,
     },
     {
-      name: "Python",
-      icon: python,
+      name: "Redux Toolkit",
+      icon: redux,
     },
     {
-      name: "Linux",
-      icon: linux,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
-      name: "Git",
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
       icon: git,
     },
     {
-      name: "Jira",
-      icon: jira,
+      name: "figma",
+      icon: figma,
     },
+    {
+      name: "docker",
+      icon: docker,
+    },
+  
     
   ];
   
   const experiences = [
     {
-      title: "R&D Executive",
-      company_name: "KPMG",
-      icon: kpmg_logo,
-      iconBg: "blue",
-      date: "Jan 2024 - Present",
+      title: "Chandigarh University",
+      company_name: "Student",
+      icon: "https://i.imgur.com/vjmUttx.jpg",
+      iconBg: "white",
+      date: "Aug 2022 - Aug 2026",
       points: [
-        "Ensuring accuracy and optimizing processes by identifying discrepancies and errors in the data.",
-        "Analyzing and visualizing data using SAS, Excel, and internal tools.",
-        "Efficiently remediating data, compiling, and correcting to save costs.",
-        "Validating and rectifying errors through close collaboration with cross-functional teams.",
+        "Grasping computer science basics with a focus on algorithms and data structures.",
+"Diving into competitive programming, honing skills in Python, C++, and JavaScript.",
+"Mastering multiple languages like Python, C++, and JavaScript for versatile coding.",
+"Staying current with evolving tech trends, continuously expanding language proficiency.",
         
       ],
     },
     {
-      title: "Reporting Analyst",
-      company_name: "Exl Services",
-      icon: EXL,
+      title: "Career Point World School",
+      company_name: "Student",
+      icon: "https://i.imgur.com/elq3P1O.png",
       iconBg: "#ffffff",
-      date: "June 2022 - Jan 2024",
+      date: "April 2021 - March 2022",
       points: [
-        "Utilizing SAS, Excel and internal tools to analyze and visualize data.",
-        "Identify discrepancies and errors in the data, ensuring accuracy and optimization of processes.",
-        "Collaborate closely with cross-functional teams to validate and rectify errors.",
-        "Compiling and correcting data, saving cost through efficient remediation processes.",
+        "Studied physics and math in 12th Standard, gaining a solid grasp of fundamental concepts.",
+        "Explored the intricacies of science, focusing on physics and mathematics.",
+        "Built a strong foundation in physics and math during my school years.",
+        "Acquired essential knowledge in physics and mathematics through school education.",
       ],
     },
     {
-      title: "Project Manager",
-      company_name: "ABCsteps Technologies Pvt Ltd",
-      icon: ABCStep,
+      title: "Shri MaheshWari Sr.Sec. School",
+      company_name: "Student",
+      icon: "https://i.imgur.com/91NyTkA.jpg",
       iconBg: "#ffffff",
-      date: "Oct 2019 - Oct 2021",
+      date: "April 2019 - March 2020",
       points: [
-        "Managed a team of 8 members and delivered businesson Digital Marketing and Web Development.",
-        "Identified plans and resources required to meet project goals and objectives.",
-        "Achieved project deadlines by coordinating with contractors to manage performance.",
-        "Analyzed project performance data to identify areas of Improvement.",
+        "Explored diverse subjects in 10th grade, building a strong educational foundation.",
+"Studied various disciplines, broadening my knowledge during 10th grade.",
+"Acquired a well-rounded education in 10th grade, covering multiple subjects.",
+"Built essential knowledge across diverse subjects during my 10th-grade studies.",
 
       ],
     },
@@ -160,23 +177,23 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Akshi Sharma's keen, dynamic data work fuels team success.",
+        "Toshik Sharma's keen, dynamic data work fuels team success.",
       name: "Kavita Sharma",
       designation: "Senior Specialist",
-      company: "Zoma",
+      company: "Commvault",
       image: "https://i.imgur.com/FRPzwnY.jpeg",
     },
     {
       testimonial:
-        "Akshi's committed, vital dataset analysis boosts the team.",
-      name: "Toshik Sharma",
-      designation: "Software Engineer",
-      company: "Google",
-      image: "https://i.imgur.com/5Rike5E.jpg",
+        "Toshik's committed, development features boosts the team.",
+      name: "Akshi Sharma",
+      designation: "R&D Specialist",
+      company: "KPMG",
+      image: "https://i.imgur.com/IedNCpl.jpg",
     },
     {
       testimonial:
-        "Akshi's tech eagerness elevates the forward-thinking team.",
+        "Toshik's tech eagerness elevates the forward-thinking team.",
       name: "Heena",
       designation: "Ecommerce Specialist",
       company: "AKOI",
@@ -186,67 +203,69 @@ import {
   
   const projects = [
     {
-      name: "Employee-Data-Analysis",
-      description:
-        "Generation of data model from the data provided, Creation of database & tables in MySQL server based on the ER Diagram, Creation of database & tables in MySQL server based on the ER Diagram.",
+      name: "3D-Porfolio",
+      description:"	Developed 3D portfolio with HTML, CSS, JavaScript, React, and Tailwind CSS, Integrated Three.js for dynamic 3D models, showcasing advanced design.",
       tags: [
         {
-          name: "MySQL",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Sqoop",
+          name: "Threejs",
           color: "green-text-gradient",
         },
         {
-          name: "Hive",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: Employee,
-      source_code_link: "https://github.com/Akshi1206/Capstone-Big-Data-Engineering-",
+      image: "https://i.imgur.com/RNfCzvV.png",
+      source_code_link: "https://github.com/toshiksharma271/toshik-3d-portfolio",
+      live_link: "https://toshik-3d-portfolio.netlify.app/",
     },
     {
-      name: "Mobile-Manufacturer",
+      name: "BaingCryption",
       description:
-        "The database “Cellphones Information” contains details on cell phone sales or transactions,Fact_Transactions stores all the information about sales of specific cellphones.",
+        "Explore the crypto world. Buy and sell cryptocurrencies easily on BaingCryption. Made using React, Solidity, HTML, CSS, JavaScript, React Router and many more.. ",
       tags: [
         {
-          name: "JupiterNoteBook",
+          name: "ReactRouter",
           color: "blue-text-gradient",
         },
         {
-          name: "HiveQL",
+          name: "Solidity",
           color: "green-text-gradient",
         },
         {
-          name: "Shell",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/Akshi1206/Mobile-Manufacturer-Data-Analysis",
+      image: "https://i.imgur.com/xkkVExQ.png",
+      source_code_link: "https://github.com/toshiksharma271/baingcryption",
+      live_link: "https://baingcryption.vercel.app/",
     },
     {
-      name: "Retail-Case-Study",
+      name: "Post-Search",
       description:
-        "A retail store would like to understand customer behavior using their point of sale data (POS),The data set we will be using for this exercise comprises of 3 tables: Customer,Transactions,Product category.",
+        "In React, implement a search feature by managing input state. Utilize the fetch API for asynchronous data fetching from an external source.",
       tags: [
         {
-          name: "Impala",
+          name: "API",
           color: "blue-text-gradient",
         },
         {
-          name: "HDFS",
+          name: "useEffect",
           color: "green-text-gradient",
         },
         {
-          name: "SparkML",
+          name: "Asynchronous",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/Akshi1206/Retail-Case-Study",
+      image: "https://i.imgur.com/eEoBT4q.png",
+      source_code_link: "https://github.com/toshiksharma271/Post-Search",
+      live_link: "https://post-search.netlify.app/",
     },
   ];
   
